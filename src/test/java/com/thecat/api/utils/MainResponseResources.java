@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class MainResponseResources {
     private MainResponseResources(){}
+
     public static MainResponseDto convertToMainResponseFromJSON(String json) {
         ObjectMapper objectMapper = new ObjectMapper();
         try{
